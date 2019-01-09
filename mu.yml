@@ -6,7 +6,7 @@ environments:
     provider: ecs-fargate
 
 service:
-  name: ecs-fargate-example
+  name: ecs-fargate
   healthEndpoint: /
   port: 80
   pathPatterns:
